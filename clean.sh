@@ -25,8 +25,10 @@ sleep 0.5
 rm -rf "/Users/$user/Library/Caches"/*
 rm -rf "/Users/$user/Library/Containers/com.apple.Safari/Data/Library/Caches/"*
 rm -rf "/tmp/"*
+rm -rf "/Users/$user/Library/Containers/com.apple.Safari/Data/Library/Caches/com.apple.Safari/"*
 echo "Erased most temps files at : "
 echo "/Users/$user/Library/Caches/*"
+echo "/Users/$user/Library/Containers/com.apple.Safari/Data/Library/Caches/com.apple.Safari/*"
 echo "/Users/$user/Library/Containers/com.apple.Safari/Data/Library/Caches/*"
 echo "/tmp/*"
 sleep 0.5
